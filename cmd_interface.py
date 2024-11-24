@@ -1,6 +1,6 @@
-import script2match as sp
+import signature_match as sp
 import insert_db as ib
-import retrieve as rt
+import file_retrieve_db as rt
 import os
 print("Signature Matching Model...")
 print("press options")

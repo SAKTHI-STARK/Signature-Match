@@ -26,9 +26,9 @@ def main(input_signature_path, database_signature_path):
     threshold = 0.5  # Adjust this threshold based on your requirements
     # Print the result
     if similarity_score > threshold:
-        print(f'Signature Match! Similarity Score: {similarity_score:.2f}')
+        return "Signature Match!"
     else:
-        print(f'Signature Not Match. Similarity Score: {similarity_score:.2f}')
+        return "Signature invalid"
 if __name__ == "__main__":
    pass
     
